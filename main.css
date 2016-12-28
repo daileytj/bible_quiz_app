@@ -28,6 +28,7 @@ h1{
   font-size: 3.125em;
   font-family: 'Overlock SC', cursive;
   color: rgb(239, 240, 242);
+  text-shadow: 4px 4px 4px rgba(217, 75, 75, 0.59);
 }
 
 body{
@@ -65,6 +66,8 @@ h2{
   background-color: rgba(239, 240, 242, 0.9);
   border-radius: 10px;
   text-align: center;
+  border: 1px solid rgb(217,75,75);
+  box-shadow: 3px 3px 3px rgba(217, 75, 75, 0.59);
 }
 
 .begin, .try_again, button[type = "radio"]{
