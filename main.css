@@ -50,7 +50,7 @@ p {
     font-size: 1em;
 }
 
-h2, h3, p, button {
+h2, h3, p, button, input[type = "radio"] {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -83,11 +83,13 @@ h2 {
 
 .choices {
     font-size: 1.2em;
-    margin: 10px auto 10px 40%;
+    margin: 10px auto;
     text-align: left;
+    width: 100%;
+    padding-left: 35%;
 }
 
-button[type="radio"] {
+input[type="radio"] {
     width: 1.4em;
     height: 1.4em;
     margin: 10px 20px 10px 0;
@@ -95,4 +97,8 @@ button[type="radio"] {
     vertical-align: middle;
     background-color: rgba(239, 240, 242, 0.9);
     border-radius: 10px;
+}
+
+.hidden {
+    display: none;
 }
